@@ -4,6 +4,9 @@ Time taken for test
 3 hours 30 minutes
 
 About Code:
+minSdkVersion 21
+targetSdkVersion 29
+
 For API, Retrofit is used.
 
 Main Activity is the launcher screen which is situated in package called common.
@@ -23,7 +26,10 @@ selecting imperial or metric unit.
 
 On MainActivity there is a button called "Five Day Forecast", on clicking into it, user will see weather for a day with 
 five different intervals (interval of every three hours.)
-At the moment I am displaying Weather, temperature, wind speed, humidity, date 
+At the moment I am displaying Weather, temperature, wind speed, humidity, date.
+Project is designed in such a way that all information is retrieved already and properly deserialized using retrofit,
+all that is required now is to use it in appropriate places for displaying it to users.
+(All APIs in interface and all helper classes ready to go)
 
 I planned in making different section of different weather type, i.e for Wind, Rain and other stuff but was not able to do in given time
 but I believe I will be able to finish that section in another hour or so.
