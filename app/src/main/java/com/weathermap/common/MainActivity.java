@@ -138,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
 
         weatherRV.setItemViewCacheSize(100);
         weatherRV.setAdapter(weatherLayoutAdapter);
-
     }
 
     private void assigningValuesForRecyclerView() {
@@ -185,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
 
                     for (int i=0; i<allList.size(); i++) {
 
-                        mDate = allList.get(0).getDtTxt();
+                        mDate = allList.get(i).getDtTxt();
 
                         mTemp = String.valueOf(Double.valueOf(String.valueOf(allList.get(i).getMain().getTemp())));
                         mWeatherStatus = String.valueOf(allList.get(0).getWeather().get(0).getDescription());
