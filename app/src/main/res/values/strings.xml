@@ -6,4 +6,19 @@
     <string name="rain">Rain</string>
     <string name="main">Main</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="weatherheading">weatherHeading</string>
+    <string name="weatherresult">weatherResult</string>
+    <string name="tempheading">tempHeading</string>
+    <string name="tempresult">tempResult</string>
+    <string name="humidityheading">humidityHeading</string>
+    <string name="humidityresult">humidityResult</string>
+    <string name="windheading">windHeading</string>
+    <string name="windresult">windResult</string>
+    <string name="dateheading">dateHeading</string>
+    <string name="dateresult">dateResult</string>
+    <string name="five_day_forecast">Five day forecast</string>
+    <string name="current_loaction">Current Loaction</string>
+    <string name="unit_system">Unit System</string>
+    <string name="imperial">Imperial</string>
+    <string name="metric">Metric</string>
 </resources>

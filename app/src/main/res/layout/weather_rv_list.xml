@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="weatherHeading"
+                android:hint="@string/weatherheading"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="weatherResult"
+                android:hint="@string/weatherresult"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </TableRow>
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="tempHeading"
+                android:hint="@string/tempheading"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="tempResult"
+                android:hint="@string/tempresult"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </TableRow>
@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="humidityHeading"
+                android:hint="@string/humidityheading"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -74,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="humidityResult"
+                android:hint="@string/humidityresult"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </TableRow>
@@ -88,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="windHeading"
+                android:hint="@string/windheading"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="windResult"
+                android:hint="@string/windresult"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </TableRow>
@@ -111,7 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="dateHeading"
+                android:hint="@string/dateheading"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="dateResult"
+                android:hint="@string/dateresult"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </TableRow>

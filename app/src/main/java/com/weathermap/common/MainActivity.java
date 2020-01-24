@@ -12,11 +12,7 @@ import com.weathermap.R;
 import com.weathermap.adapters.WeatherLayoutAdapter;
 import com.weathermap.global.Constants;
 import com.weathermap.helperClasses.CityModel;
-import com.weathermap.helperClasses.CombinedHelperModel;
-import com.weathermap.helperClasses.Main;
-import com.weathermap.helperClasses.Weather;
 import com.weathermap.helperClasses.WeatherAPIModel;
-import com.weathermap.helperClasses.Wind;
 import com.weathermap.retrofitAPI.WeatherAPIs;
 import com.weathermap.retrofitAPI.WeatherServiceBuilder;
 import com.weathermap.settings.Settings;
@@ -30,10 +26,6 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -198,7 +190,6 @@ public class MainActivity extends AppCompatActivity {
                         mTempList.add(mTemp);
                         mWindSpeedList.add(mWindSpeed);
                     }
-
                 }
             }
 
